@@ -5,6 +5,8 @@
     margin: auto;
     text-transform: capitalize;
     text-align: center;
+    padding-top: 5%;
+
 }
 
 
@@ -102,4 +104,20 @@ button {
 #btn-3 {
     color: #3a71c9;
     font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 345px;
+        display: block;
+        float: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 290px;
+        margin: 30px auto;
+        display: inline-block;
+    }
 }
